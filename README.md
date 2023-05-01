@@ -20,7 +20,9 @@ You may also see any lint errors in the console.
     - useEffect
     - useState
 
-### Tailwind Css
 ### Fetching Local json data 
+
+### Tailwind Css
+
 
 learn more about the tailwindcss [here](https://tailwindcss.com)

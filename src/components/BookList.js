@@ -115,14 +115,12 @@ function BookList() {
           <button
             disabled={page <= 1}
             onClick={() => setPage((page) => page - 1)}
-            className="px-1 text-[#fff]"
-            style={{ backgroundColor: "blue" }}
+            className="px-1 text-[#fff] bg-blue-700"
           >{`<<`}</button>
           {pages.map((index) => (
             <button
               disabled={page === index}
-              className="w-[10%] py-1 text-[#fff]"
-              style={{ backgroundColor: "blue" }}
+              className="w-[10%] py-1 text-[#fff] bg-blue-700"
               onClick={() => setPage(index)}
               key={index}
             >
@@ -132,8 +130,7 @@ function BookList() {
           <button
             disabled={page > pages.length}
             onClick={() => setPage((page) => page + 1)}
-            className="px-1 text-[#fff]"
-            style={{ backgroundColor: "blue" }}
+            className="px-1 text-[#fff] bg-blue-700"
           >{`>>`}</button>
         </div>
       </section>

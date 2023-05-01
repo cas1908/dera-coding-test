@@ -24,7 +24,7 @@ function BookDetails() {
     <div>
       <button
         onClick={() => navigate(-1)}
-        className="bg-blue-700 text-[#fff] p-3"
+        className="bg-blue-700 fixed top-0 left-0 text-[#fff] p-3"
       >
         back
       </button>

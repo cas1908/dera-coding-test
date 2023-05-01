@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with DERA-CODING-TEST
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -21,5 +21,6 @@ You may also see any lint errors in the console.
     - useState
 
 ### Tailwind Css
+### Fetching Local json data 
 
-learn more about the tailwindcss [https://tailwindcss.com](here)
+learn more about the tailwindcss [here](https://tailwindcss.com)
